@@ -1,0 +1,128 @@
+ /* .section{
+    background-image: url(./images/pic3.jpg);
+    height: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+     background-size: cover; 
+    position: relative;
+    background-size:cover ;
+    left:35%;
+    padding: 20px;
+}
+.set{
+    background-color: #ffffff2a;
+    padding: 250px 80px 40px 40px;
+    padding-top: 180px; 
+     border: 1px solid grey;
+     border-radius:5px;
+    position: absolute;
+    bottom: 100px;
+    width: 450px;
+    outline: none;
+    background-color: #ffffffd4;
+    color: #808080;
+} */
+ /* h3,p{
+    border: 1px solid black;
+} 
+
+/*GRID TEMPLATE SECTION  */
+ /* .container {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 20px 30px;
+
+ }
+
+ .box {
+     width: 200px;
+     height: 200px;
+     border: 2px solid black;
+ } */
+
+ /* MEDIA QUERY SECTION  */
+ /* body {
+     background-color: rgb(33, 131, 217);
+ } */
+
+ /* @media screen and (max-width : 500px) {
+     body {
+         background-color: rgb(217, 255, 0);
+     }
+
+     .container {
+         grid-template-columns: repeat(2, 1fr);
+     }
+ } */
+  /* @media screen and (max-width:400px) {
+    body{
+        background-color: red;
+    }
+  } */
+
+  .small{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+
+  }
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border: 2px solid black;
+   height: 100vh;
+  }
+
+  /* ANIMATION SECTION CSS */
+.effect{
+    height: 300px;
+    width:400px;
+    background-color: chocolate;
+     animation: square 1s ease-out  infinite ;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.chotu{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    animation: chotu 1s ease-out  infinite ;
+    
+}
+
+@keyframes square {
+    1%{
+        transform: scale(1);
+        opacity: .9;
+    }
+    50%{
+        transform: rotateX(90deg);
+
+    }
+    70%{
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    /* 80%{
+        transform: rotateY(60deg);
+    } */
+}
+@keyframes chotu {
+    1%{
+        transform: scale(1);
+        opacity: .9; 
+    }
+    50%{
+        transform: rotateX(90deg); 
+
+     }
+    70%{
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    80%{
+        transform: rotateY(20deg);
+    }
+}

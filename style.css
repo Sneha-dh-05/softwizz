@@ -15,6 +15,44 @@ header span {
     margin-right: 40px;
 }
 
+/* COURSE SECTION CSS */
+.main-course {
+    position: relative;
+    display: inline-block;
+}
+
+.course-table {
+
+    position: absolute;
+
+    left: -500px;
+    /* width: 600px; */
+    /* height: 250px; */
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    display: none;
+}
+
+.course1 {
+    /* margin-bottom: 10px; */
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    font-size: 15px;
+
+}
+
+.course1 a {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.main-course:hover .course-table {
+    display: flex;
+}
+
 i {
     color: red;
 }
@@ -89,7 +127,7 @@ h3 {
 
 }
 
-.container {
+.container1 {
     position: absolute;
 
     color: white;
@@ -204,10 +242,10 @@ p {
 }
 
 .icons i {
-    padding: 10px;
+    padding: 15px;
     border: 1px solid red;
     border-radius: 50%;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .icons p {
@@ -341,19 +379,21 @@ p {
     /* height: 1100px; */
     /* background-color: aqua; */
     margin-top: 50px;
-   
-}
-.our-2{
-    
-     display: grid;
-     grid-template-columns: repeat(2, 1fr);
-     justify-content: center ;
-     align-items: center;
-     padding: 20PX;
-     column-gap: 40px;
-     row-gap: 20pX;
 
 }
+
+.our-2 {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 20PX;
+    column-gap: 40px;
+    row-gap: 20pX;
+
+}
+
 .our-big {
     background-image: url(./images/our1.jpeg);
     background-repeat: no-repeat;
@@ -384,39 +424,43 @@ p {
 
 }
 
-.our-small:hover  {
+.our-small:hover {
     background-color: rgb(251, 103, 103);
-    color: white ;
+    color: white;
 
 }
-.our-small:hover p{
+
+.our-small:hover p {
     color: white;
 }
 
 /* TESTIMONIAL SECTION CSS */
-.testimonial{
+.testimonial {
     background-image: url(./images/test.jpg);
     height: 50%;
     margin-top: 50px;
     background-size: cover;
     background-attachment: fixed;
 }
+
 /* TECHNOLOGY SECTION CSS */
 
-.tech-big{
+.tech-big {
     background-color: rgba(255, 192, 203, 0.166);
 }
 
-.tech::-webkit-scrollbar{
+.tech::-webkit-scrollbar {
     display: none;
 }
-.text{
+
+.text {
     font-size: 30px;
     font-family: sans-serif;
     margin-top: 30px;
-    
+
 }
-.tech{
+
+.tech {
     display: flex;
     gap: 40px;
     width: 60px;
@@ -441,26 +485,29 @@ p {
 
 /* CONTACT SECTION CSS */
 
-.contact{
-    background-color: #f7f6f6;
+.contact {
+    /* background-color: #f7f6f6; */
     height: 300px;
     margin-top: 50px;
     padding-top: 30px;
 }
-.contact-h2{
+
+.contact-h2 {
     color: blue;
     /* margin-top: 30px; */
     margin-bottom: 50px;
     text-align: center;
     font-size: 30px;
 }
-.card-3{
+
+.card-3 {
     display: flex;
     gap: 40px;
     justify-content: center;
     align-items: center;
 }
-.contact-div{
+
+.contact-div {
     width: 260px;
     height: 160px;
     padding: 40px;
@@ -468,10 +515,11 @@ p {
     text-align: center;
     background-color: #ffffff;
     margin-top: 20px;
-    box-shadow:  0 0 30px rgba(214, 215, 216, 0.6);
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
     color: rgb(67, 66, 66);
 }
-.contact-div i{
+
+.contact-div i {
     position: absolute;
     left: 18px;
     top: 18px;
@@ -479,73 +527,79 @@ p {
     padding: 15px;
     font-size: 20px;
     border-radius: 50%;
-    border: 2px dotted rgb(241, 195, 195);  
+    border: 2px dotted rgb(241, 195, 195);
 }
-.contact-div p{
-   text-align: center;
-   margin-top: 10px; 
+
+.contact-div p {
+    text-align: center;
+    margin-top: 10px;
 }
 
 /* footer section css */
 
-.footer{
+.footer {
     display: flex;
     gap: 80px;
     margin-top: 100px;
     background-color: rgba(255, 192, 203, 0.166);
     padding: 50px;
 }
-.foot1{
+
+.foot1 {
     display: flex;
     flex-direction: column;
     gap: 30px;
     margin-left: 100px;
 }
 
-.foot4 img{
+.foot4 img {
     margin-top: 30px;
 }
-.fa-greater-than{
-    font-size:12px ;
+
+.fa-greater-than {
+    font-size: 12px;
     font-weight: 100px;
     color: brown;
     margin-right: 10px;
 }
 
- /* COPYRIGHT SECTION CSS */
- .copy{
+/* COPYRIGHT SECTION CSS */
+.copy {
     display: flex;
     margin-top: 50px;
- }
+}
 
- .copy-icons{
+.copy-icons {
     display: flex;
     gap: 30px;
     justify-content: right;
-    font-size:30px;
+    font-size: 30px;
     margin-right: 70px;
 
- }
- .copy-icons-edit{
+}
 
- border-radius:50% ;
+.copy-icons-edit {
+
+    border-radius: 50%;
     padding: 8px;
     background-color: red;
     color: white;
-    
- }
- .arrow{
+
+}
+
+.arrow {
     position: fixed;
     bottom: 10px;
     right: 10px;
     display: flex;
     gap: 30px;
     justify-content: right;
-    font-size:30px;
-    
+    font-size: 30px;
+
 }
-.up-arrow{ 
+
+.fa-angle-up {
     color: white;
     padding: 8px;
     background-color: red;
- }
+}

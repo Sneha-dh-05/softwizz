@@ -1,14 +1,10 @@
 .card-main{
-    /* width: 90%; */
+   
     align-items: center;
     margin-left: 50px;
-    /* margin-top: 50px; */
-    /* display: flex; */
-}
-/* .small-card{
-    width: 800px;
     
-} */
+}
+
 .txt{
     display: flex;
     /* width: 800px; */
